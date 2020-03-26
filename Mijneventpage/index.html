@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Hu events</title>
+    <meta name="description" content="Simplified Bootstrap template with sticky menu">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sticky-menu.css" rel="stylesheet">
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Welkom</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#over">Over</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#events">Events</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>	<!-- .navbar-collapse -->
+        </div>		<!-- .container -->
+    </nav>
+    <!-- Welcome   -->
+    <section id="welkom" class="welkom-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>HU Open-ICT evenementen</h1>
+                    <a class="btn btn-primary page-scroll" href="#over">Ga verder!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="over" class="over-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Over</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What we do Section -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Events</h1>
+                    <form>
+                        <form action="/action_page.php">
+                        <label for="titel">Titel:</label><br>
+                        <input type="text" id="titel" name="titel"><br>
+                        <label for="flname">Naam:</label><br>
+                        <input type="text" id="flname" name="flname"><br>
+                        <label for="bschrijving">Beschrijving:</label><br>
+                        <input type="text" id="bschrijving" name="bschrijving"><br>
+                        <label for="bdatum">Begin datum:</label><br>
+                        <input type="text" id="bdatum" name="bdatum"><br>
+                        <label for="edatum">Eind datum:</label><br>
+                        <input type="text" id="edatum" name="edatum"><br>
+                      
+                        <form action="/action_page.php" target="_blank" method="post"><br>
+                        <input type="submit" value="Submit"><br><br><br><br>
+                      
+                        <button class="button" onclick="get()">Get </button>
+                        <p id="tekstvanuitdatabase"></p>
+                      </form>
+                      <script src="bootstrap.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/sticky-menu.js"></script>
+
+</body>
+
+</html>
